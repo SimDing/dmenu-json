@@ -1,0 +1,28 @@
+{
+  "name": "dmenu-json",
+  "version": "1.0.0",
+  "description": "Create nested menus using dmenu and json files.",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:SimDing/dmenu-json.git"
+  },
+  "bin": "dist/index.js",
+  "devDependencies": {
+    "@types/node": "^12.12.18",
+    "@typescript-eslint/eslint-plugin": "^2.11.0",
+    "@typescript-eslint/parser": "^2.11.0",
+    "eslint": "^6.7.2",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "prettier": "^1.19.1",
+    "typescript": "^3.7.3"
+  },
+  "dependencies": {
+    "assert-never": "^1.2.0"
+  }
+}
