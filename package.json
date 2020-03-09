@@ -7,6 +7,14 @@
     "build": "tsc",
     "prepublishOnly": "tsc"
   },
+  "keywords": [
+    "dmenu",
+    "json",
+    "i3",
+    "selector",
+    "menu",
+    "launcher"
+  ],
   "repository": {
     "type": "git",
     "url": "git@github.com:SimDing/dmenu-json.git"
